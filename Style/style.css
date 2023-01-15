@@ -238,10 +238,11 @@ section.some-fact {
     text-align: center;
     padding: 30px;
     border: 1px solid #FF900E;
+    transition: .5s all ;
 }
 .fact-iteam:hover{
     transform: scale(1.25);
-    transition: .5s  ease-in-out ;
+    
 }
 .fact-iteam h2 {
     font-size: 45px;

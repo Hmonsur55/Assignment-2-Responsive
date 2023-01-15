@@ -147,11 +147,11 @@ p.feature-description {
 
 /* feature you love  */
 
+
 .feature-you-love{
     display: grid;
     gap: 20px;
     grid-template-columns: repeat( 2, 1fr);
-    /* grid-template-columns: repeat( auto-fit, minmax(700px, 1fr) ); */
     padding-top: 50px;
     align-items: center;
 }
@@ -301,10 +301,7 @@ section.contact-area {
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     padding: 40px 70px 40px 70px;
     width: 400px;
-    /* position: absolute;
-    top: -179px;
-    left: -118px;
-    z-index: 10; */
+    
 }
 .contact-us-left {
     text-align: right;
@@ -316,5 +313,9 @@ section.contact-area {
     background:#fff4e7;
     border-radius: 8px;
     
+}
+
+.hide{
+    display: none;
 }
 /* End */

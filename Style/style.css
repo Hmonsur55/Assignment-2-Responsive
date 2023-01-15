@@ -146,15 +146,18 @@ p.feature-description {
 }
 
 /* feature you love  */
+
 .feature-you-love{
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat( auto-fit, minmax(700px, 1fr) );
+    grid-template-columns: repeat( 2, 1fr);
+    /* grid-template-columns: repeat( auto-fit, minmax(700px, 1fr) ); */
     padding-top: 50px;
     align-items: center;
 }
+
 .feature-item-description  {
-    width: 570px;
+    /* width: 570px; */
 }
 .feature-item-description h2  {
     position: relative;
@@ -226,6 +229,7 @@ section.some-fact {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-content: center;
+    justify-items: center;
 }
 .fact-iteam{
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
@@ -289,28 +293,27 @@ section.contact-area {
     gap: 20px;
     border-radius: 8px;
 }
-.contact-info-container{
+/* .contact-info-container{
     position: relative;
-}
+} */
 .contact-info {
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     padding: 40px 70px 40px 70px;
     width: 400px;
-    position: absolute;
+    /* position: absolute;
     top: -179px;
     left: -118px;
-    z-index: 10;
+    z-index: 10; */
 }
 .contact-us-left {
     text-align: right;
-    margin-right: 520px;
+    margin-right: 410px;
 }
 /* footer  */
 .coppyright-footer.container.text-center p{
     padding: 30px;
     background:#fff4e7;
     border-radius: 8px;
-    margin: 50px;
     
 }
 /* End */

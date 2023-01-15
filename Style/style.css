@@ -156,14 +156,19 @@ p.feature-description {
 .feature-item-description  {
     width: 570px;
 }
+.feature-item-description h2  {
+    position: relative;
+    margin-left: 25px;
+}
 
-.feature-item-description h2::before{
+.feature-item-description h2::before {
     content: "";
-    height: 200px;
-    width: 3px;
+    position: absolute;
+    height: 114px;
+    width: 5px;
     background-color: #FF900E;
     top: 0px;
-    left: 0px;
+    left: -20px;
 }
 .feature-item-description p {
     margin: 20px 0px;
@@ -260,10 +265,45 @@ section.sponsor {
 .sponsor-list {
     text-align: center;
 }
+.sponsor-list img {
+    filter: grayscale(100%);
+}
 .sponsor-info {
     margin: 0px  auto;
     text-align: center;
     padding: 50px 0px;
+}
+
+/* contact area */
+section.contact-area {
+    padding: 50px 0px;
+}
+.contact-info div {
+    margin-bottom: 20px;
+}
+.contact-information-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+}
+.contact-info-container{
+    position: relative;
+}
+.contact-info {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 40px 70px 40px 70px;
+    width: 400px;
+    position: absolute;
+    top: -179px;
+    left: -118px;
+    z-index: 10;
+}
+.contact-us-left {
+    text-align: right;
+    margin-right: 520px;
 }
 /* footer  */
 .coppyright-footer.container.text-center p{

@@ -11,7 +11,8 @@
     }
 
     .feature-img {
-        grid-template-columns: repeat(1,1fr); 
+        /* grid-template-columns: repeat(1,1fr);  */
+        grid-template-columns: repeat( auto-fit, minmax(1, 1fr) );
     }
     .feature-box {
         text-align: center;
@@ -24,9 +25,12 @@
     .feature-item-description {
         width: 100%;
     }
-    .feature-item {
-        width: 100%; 
+    .feature-item-container {
+        width: 100%;
     }
+    /* .feature-item {
+        width: 100%; 
+    } */
     .feature-you-love {
         grid-template-columns: repeat( 1, 1fr); 
     }
@@ -58,10 +62,9 @@
         margin-bottom: 30px;
     }
 
-    .contact-info {
+    .contact-info-container {
         width: 100%;
     }
-
 
 }
 
